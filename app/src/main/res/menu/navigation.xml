@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Pablo Mateos García-->
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/filmsBt"
+        android:enabled="true"
+        android:icon="@drawable/ic_film"
+        android:title="Films"/>
+    <item
+        android:id="@+id/seriesBt"
+        android:enabled="true"
+        android:icon="@drawable/ic_series"
+        android:title="Series"/>
+    <item
+        android:id="@+id/shortsBt"
+        android:enabled="true"
+        android:icon="@drawable/ic_short"
+        android:title="Shorts"/>
+</menu>

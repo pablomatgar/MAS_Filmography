@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Pablo Mateos García-->
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_add"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    tools:context=".AddActivity"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/name_text_view_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/name_edit_text_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/original_name_text_view_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/original_name_edit_text_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/name_character_text_view_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/name_character_edit_text_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/date_release_text_view_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/date_release_edit_text_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow android:id="@+id/row1_a">
+        <TextView
+            android:id="@+id/date_end_text_view_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/date_end_edit_text_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow android:id="@+id/row2_a">
+        <TextView
+            android:id="@+id/seasons_text_view_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/seasons_edit_text_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow android:id="@+id/row3_a">
+        <TextView
+            android:id="@+id/episodes_text_view_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/episodes_edit_text_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow android:id="@+id/row4_a">
+        <TextView
+            android:id="@+id/episodes_character_text_view_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/episodes_character_edit_text_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/director_text_view_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/director_edit_text_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/duration_text_view_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/duration_edit_text_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/language_text_view_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/language_edit_text_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/genre_text_view_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/genre_edit_text_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/back_button_a"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/save_button_a"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_save"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</TableLayout>

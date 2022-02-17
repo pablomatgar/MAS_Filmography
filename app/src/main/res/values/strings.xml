@@ -1,0 +1,44 @@
+<!-- Pablo Mateos García-->
+
+<resources>
+    <string name="app_name">Task 2 -MAS Filmography</string>
+    <string name="app_title">Miguel Ángel Silvestre\'s Filmography</string>
+    <string name="search">Search</string>
+    <string-array name="film_fields">
+        <item>Film ID</item>
+        <item>Film Name</item>
+        <item>Original Film Name</item>
+        <item>Character Name</item>
+        <item>Release Date</item>
+        <item>Director</item>
+        <item>Duration</item>
+        <item>Language</item>
+        <item>Genre</item>
+    </string-array>
+    <string-array name="series_fields">
+        <item>Series ID</item>
+        <item>Series Name</item>
+        <item>Original Series Name</item>
+        <item>Character Name</item>
+        <item>Release Date</item>
+        <item>End Date</item>
+        <item>Seasons</item>
+        <item>Episodes</item>
+        <item>Episodes of Appareance of the Character</item>
+        <item>Creator</item>
+        <item>Runtime</item>
+        <item>Language</item>
+        <item>Genre</item>
+    </string-array>
+    <string-array name="short_fields">
+        <item>Short ID</item>
+        <item>Short Name</item>
+        <item>Original Short Name</item>
+        <item>Character Name</item>
+        <item>Release Date</item>
+        <item>Director</item>
+        <item>Duration</item>
+        <item>Language</item>
+        <item>Genre</item>
+    </string-array>
+</resources>
