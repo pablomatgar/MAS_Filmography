@@ -1,6 +1,6 @@
 # MAS Filmography
 
-Android app which would allow the user to store details of the actor Miguel Ángel Silvestre’s filmography, stored in a table in an SQLite database. This was one of the final assignments of the module COM502 - Internet and Mobile Application Development in Wrexham Glyndŵr University (United Kingdom).
+Android (Java) app which would allow the user to store details of the actor Miguel Ángel Silvestre’s filmography, stored in a table in an SQLite database. This was one of the final assignments of the module COM502 - Internet and Mobile Application Development in Wrexham Glyndŵr University (United Kingdom).
 
 ### Difficulties and how I solved them
 
